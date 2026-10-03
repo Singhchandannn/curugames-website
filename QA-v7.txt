@@ -1,0 +1,29 @@
+Curu Games Website v7 QA
+========================
+
+Requested interaction changes
+- PRINT journey card uses only Curu Shop post/image assets, not a video.
+- PRINT card rotates to a different real Curu Shop post every 3 seconds.
+- Next post is shuffled/random and never intentionally repeats the same current image.
+- Reel cards start with a large centered Play button.
+- Desktop pointer hover: muted preview starts.
+- Desktop pointer leave: preview pauses and resets unless user has clicked to lock playback.
+- Click/tap: user-controlled playback starts.
+- While user-controlled playback is active, only Stop and Sound/Mute controls are shown.
+- Stop pauses and returns video to the beginning.
+- Sound button toggles mute state.
+- Native browser video controls are disabled.
+- Mobile has no hover dependency; large Play button is the entry control.
+
+Static/runtime DOM regression
+Pages checked: index.html, 3d-printing.html
+Widths checked: 320, 375, 430, 768, 1440 px
+Result: PASS at all 10 page/viewport combinations.
+- No horizontal overflow.
+- Homepage creates 9 video shells, 9 Play buttons and 9 custom control bars.
+- 3D Printing page creates 4 video shells, 4 Play buttons and 4 custom control bars.
+
+File validation
+- app.js passes node --check.
+- 16 HTML pages parsed.
+- 0 missing local img/script/link/source references.

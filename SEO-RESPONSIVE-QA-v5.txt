@@ -1,0 +1,55 @@
+CURU GAMES WEBSITE v5 — RESPONSIVE + SEO QA
+
+Build: App Theme + SEO
+Domain target: https://games.thecurushop.com
+
+Responsive checks
+- 17 HTML pages checked
+- Widths: 320, 375, 430, 768, 1440 px
+- Total viewport checks: 85
+- Horizontal overflow issues: 0
+- Header uses compact desktop nav + mobile menu
+- Floating game icons remain visible on mobile and use unblurred local game artwork
+- Dark theme is default; light theme is stored in localStorage and follows the same Curu palette
+
+SEO checks
+- Every HTML page has a unique title, meta description and canonical URL
+- robots.txt points to sitemap.xml
+- sitemap.xml includes core product, help and policy pages
+- Homepage includes SoftwareApplication + Organization JSON-LD
+- FAQ page includes FAQPage JSON-LD
+- Internal navigation links product, help, family and policy pages
+- No missing local file references
+- JSON-LD parse errors: 0
+- Sitemap XML parse errors: 0
+
+Visual content
+- Official Google Play badge loaded from Google Play
+- Real CC0 3D-print example imagery loaded from Wikimedia Commons
+- Media licensing/source information is exposed on image-credits.html
+
+Public pages
+- Home
+- Games
+- How it works
+- Rewards
+- 3D Printing
+- Parent Control
+- Why Curu Games
+- FAQ
+- About
+- Policy Center
+- Privacy
+- Terms
+- Rewards Terms
+- Support
+- Account Deletion
+- Media Credits
+- 404
+
+Important after deployment
+1. Verify https://games.thecurushop.com/app-ads.txt
+2. Verify Pro Games/config CORS from https://thecurushop.com
+3. Submit https://games.thecurushop.com/sitemap.xml in Google Search Console
+4. Use Google URL Inspection after the site is live
+5. Test Google Rich Results for the homepage and FAQ

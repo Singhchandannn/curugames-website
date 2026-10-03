@@ -1,0 +1,30 @@
+Curu Games Website v6 QA
+
+HTML pages checked: 16
+Media files checked: 24
+Errors: 0
+
+[PASS] 500+ hero
+[PASS] turn points
+[PASS] games starting
+[PASS] rate metric
+[PASS] instagram
+[PASS] phone
+[PASS] whatsapp
+[PASS] email
+[PASS] shop
+[PASS] media videos
+[PASS] own media images
+[PASS] no commons
+
+Local asset/reference validation: PASS
+
+Responsive overflow checks (Chromium layout):
+PASS 320px viewport: scrollWidth=320, clientWidth=320
+PASS 375px viewport: scrollWidth=375, clientWidth=375
+PASS 430px viewport: scrollWidth=430, clientWidth=430
+PASS 768px viewport: scrollWidth=768, clientWidth=768
+PASS 1024px viewport: scrollWidth=1024, clientWidth=1024
+PASS 1440px viewport: scrollWidth=1440, clientWidth=1440
+
+All-page responsive checks: 80 viewport/page combinations; failures: 0

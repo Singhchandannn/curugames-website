@@ -1,0 +1,15 @@
+Curu Games Website v4 QA
+==========================
+
+PASS  floating_icons_present
+PASS  floating_icons_not_hidden_mobile
+PASS  game_images_force_no_filter
+PASS  320_breakpoint
+PASS  phone_breakpoint
+PASS  tablet_breakpoint
+PASS  play_button_white_text
+PASS  print_gallery_4_visuals
+PASS  app_ads_root
+PASS  all_local_refs_exist
+
+HTML parser errors: 0
